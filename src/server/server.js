@@ -19,7 +19,7 @@ if (process.env.NODE_ENV == 'development') {
 app.use(express.static(distDir))
 
 app.post('/api/hello', (req, res) => {
-  res.send('Hello Richard!')
+  res.send('Hello AWS!')
 })
 
 if (fs.existsSync(httpsKey) && fs.existsSync(httpsCert)) {
